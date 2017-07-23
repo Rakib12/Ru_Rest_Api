@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Vcs API', type: :request do
   # initialize test data 
-  let!(:vcs) { create_list(:vc, 10) }
+  let!(:vcs) { create_list( :vc , 10) }
   let(:vc_id) { vcs.first.id }
 
   # Test suite for GET /vcs
